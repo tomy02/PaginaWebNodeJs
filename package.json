@@ -1,0 +1,21 @@
+{
+    "name": "pagina-web-nodejs",
+    "version": "1.0.0",
+    "description": "proyecto en nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src",
+        "dev": "nodemon src"
+    },
+    "keywords": [],
+    "author": "Tomas Escorza",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
